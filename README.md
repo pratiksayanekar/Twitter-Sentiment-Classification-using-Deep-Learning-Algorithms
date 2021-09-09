@@ -41,7 +41,7 @@
 
 There are multiple lines of requirement.txt is generated. So for any version mismatch, requesting to execute below commented cell.
 
-# Specified requirements can be installed with below command.
+### Specified requirements can be installed with below command.
 > pip install -r requirements.txt
 
 # Instructions to execute this project.
@@ -71,10 +71,28 @@ There are 5 python files created for utility purposes of respective models. Thes
 # Project Overview:
 title
 
-Evaluation Metric - Accuracy:
-Models are tuned on the basis of values provided as filter length, kernal length, max_len and dropout. As per computing power batch size and number of epochs can be changed. Initially the model is trained on batch size of 516 and 1024 as well to analyse the results, these results are stored at SavedNotebooks directory.
+# Evaluation Metric - Accuracy:
+> Models are tuned on the basis of values provided as filter length, kernal length, max_len and dropout. As per computing power batch size and number of epochs can be changed. Initially the model is trained on batch size of 516 and 1024 as well to analyse the results, these results are stored at SavedNotebooks directory.
 
-CNN Model
+### CNN Model
+title
+
+> Accuracy and Loss trend of training and validation data
+title
+
+> Confusion Matrix of testing data
+title
+
+### CNN_v2 Model
+title
+
+> Accuracy and Loss trend of training and validation data
+title
+
+> Confusion Matrix of testing data
+title
+
+### LSTM Model
 title
 
 Accuracy and Loss trend of training and validation data
@@ -83,7 +101,7 @@ title
 Confusion Matrix of testing data
 title
 
-CNN_v2 Model
+### LSTM_v2 Model
 title
 
 Accuracy and Loss trend of training and validation data
@@ -92,7 +110,7 @@ title
 Confusion Matrix of testing data
 title
 
-LSTM Model
+### BiLSTM + CNN Model
 title
 
 Accuracy and Loss trend of training and validation data
@@ -101,29 +119,11 @@ title
 Confusion Matrix of testing data
 title
 
-LSTM_v2 Model
-title
+### Insights:
 
-Accuracy and Loss trend of training and validation data
-title
-
-Confusion Matrix of testing data
-title
-
-BiLSTM + CNN Model
-title
-
-Accuracy and Loss trend of training and validation data
-title
-
-Confusion Matrix of testing data
-title
-
-Insights:
-
-The testing accuracy of above model is 90%, the accuracy of angry and disappointed is comparatively less as model is perfectly distinguishing tweets with happy emotion.
-The loss of training and validation curve shows no overfitting, provided that the accuracy on unseen data matches the accuracy of validation data.
-Model is performing poor, not actually poor but less efficient while predicting between 'angry' and 'disappointed' tweets. The confusion matrix of all models shows similar results.
-The execution time of epochs can be reduced by adding several layers of dropout but this is avoided as it results in increase of loss.
-The batch size can be increase more than 1024. for example in last saved notebook by increasing batch size to 2048 reduces the number of steps to run one epoch, 587776 samples were trained in 287 steps. On CPU one epoch of BiLSTM takes almost an hour to execute.
-Due to Google collab time limit exhaustion, the latest run is executed on Macbook pro CPU with increased batch size.
+- The testing accuracy of above model is 90%, the accuracy of angry and disappointed is comparatively less as model is perfectly distinguishing tweets with happy emotion.
+- The loss of training and validation curve shows no overfitting, provided that the accuracy on unseen data matches the accuracy of validation data.
+- Model is performing poor, not actually poor but less efficient while predicting between 'angry' and 'disappointed' tweets. The confusion matrix of all models shows similar results.
+- The execution time of epochs can be reduced by adding several layers of dropout but this is avoided as it results in increase of loss.
+- The batch size can be increase more than 1024. for example in last saved notebook by increasing batch size to 2048 reduces the number of steps to run one epoch, 587776 samples were trained in 287 steps. On CPU one epoch of BiLSTM takes almost an hour to execute.
+- Due to Google collab time limit exhaustion, the latest run is executed on Macbook pro CPU with increased batch size.
