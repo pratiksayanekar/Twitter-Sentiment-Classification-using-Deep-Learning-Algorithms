@@ -92,7 +92,7 @@ There are 5 python files created for utility purposes of respective models. Thes
 ![](/figs/Models/CNN_v2_confusion_matrix.png)
 
 ### LSTM Model
-![](/figs/lstm_v1.png)
+![](/figs/LSTM_v1.png)
 
 Accuracy and Loss trend of training and validation data
 ![](/figs/Models/LSTM_acc_loss.png)
@@ -101,7 +101,7 @@ Confusion Matrix of testing data
 ![](/figs/Models/LSTM_confusion_matrix.png)
 
 ### LSTM_v2 Model
-![](/figs/lstm_v2.png)
+![](/figs/LSTM_v2.png)
 
 Accuracy and Loss trend of training and validation data
 ![](/figs/Models/LSTM_v2_acc_loss.png)
