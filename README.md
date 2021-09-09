@@ -35,9 +35,9 @@
 
 
 # Requirements
-> Requirement of this project is generated using below command.
-> pip install pipreqs
-> pipreqs /path/to/project
+### Requirement of this project is generated using below command.
+> pip install pipreqs <br>
+> pipreqs /path/to/project <br>
 
 There are multiple lines of requirement.txt is generated. So for any version mismatch, requesting to execute below commented cell.
 
@@ -47,7 +47,7 @@ There are multiple lines of requirement.txt is generated. So for any version mis
 # Instructions to execute this project.
 
 Setting up filePath variable: <br>
-> Find filePath variable and change the value as per the project location in file system. filePath variable can be found in below files,
+> Find filePath variable and change the value as per the project location in file system. filePath variable can be found in below files, <br>
 - Data_Preprocessing.ipynb <br>
 - Deep_Learning_models.ipynb<br>
 - /utils/basic_utilities.py<br>
