@@ -3,16 +3,35 @@
 ### A typical top-level directory layout
 
     .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
+    ├── checkpoints             # Models with minimum validation loss are saved here
+            ├── CNN
+            ├── LSTM
+            ├── BiLSTM
+    ├── Data                    # csv files are stored here
+            ├── dataset(clean).csv
+            ├── preprocessed_data.csv
+            ├── glove.6B.100d.txt
+    ├── figs                     # Visualization related to dataset and model evaluations
+            ├── Dataset
+                ├── Dataset related visualizations
+            ├── Models
+                ├── Deep Learning model evaluation visualizations
+    ├── models                    # Custom python classes with model specific utilities
+            ├── BiLSTM.py
+            ├── CNN_1.py
+            ├── LSTM_1.py
+            ├── Word2Vec_1.py
+    ├── SavedNotebooks            # as a part of experiment, several other approaches and results are saved here
+            ├── GPU_Notebooks/
+            ├── Deep_Learning_models_dropout_0.5.ipynb
+            ├── Deep_Learning_models_dropout_0.8.ipynb
+            ├── Deep_Learning_models_dropout_Glove.ipynb
+    ├── utils                     # this file incorporates utilites required for deep neural network modeling
+            ├── basic_utilities.py
+    ├── Data_Preprocessing.ipynb    # Preprocessing file
+    ├── Deep_Learning_Models.ipynb  # Deep Learning model implementation
+    ├── requirements.txt            
     └── README.md
-
-> Use short lowercase names at least for the top-level files and folders except
-> `LICENSE`, `README.md`
 
 
 ### Directory Structure
