@@ -56,17 +56,17 @@ Setting up filePath variable: <br>
 - /models/LSTM_1.py<br>
 
 # Execute Data_Preprocessing.ipynb file:
-> This notebook process the csv file stored at '/Data/dataset(clean).csv'. <br>
-> Please make sure that the file present at specified location or change the filePath accordingly. <br>
-> It will generate the preprocessed file at '/Data/preprocessed_data.csv'. <br>
-> Execute Deep_Learning_models.ipynb: file <br>
-> The preprocessed data of previous step is loaded here and further deep neural network modeling is performed. <br>
+- This notebook process the csv file stored at '/Data/dataset(clean).csv'. <br>
+- Please make sure that the file present at specified location or change the filePath accordingly. <br>
+- It will generate the preprocessed file at '/Data/preprocessed_data.csv'. <br>
+- Execute Deep_Learning_models.ipynb: file <br>
+- The preprocessed data of previous step is loaded here and further deep neural network modeling is performed. <br>
 There are 5 python files created for utility purposes of respective models. These files are imported in import section. <br>
-> Section 3 describes the word embedding and there are two approaches discussed there, Word2Vec and GloVe. <br>
-> Execute either 3.1 or 3.2 section to perform specified word embeddings. <br>
-> glove requires the the source file stored at 'Data/glove.6B.100d.txt'. This file is of 350mb, as per space availability this file will be uploaded. If not present requesting you to store one at specified location. <br>
-> For model evaluation purpose, only execute evalution part specified in each model, this will load the previously saved trained model and evaluate on it. <br>
-> Model training is done on Macbook pro CPU, so the time taken to execute each batch is tremendously high.<br>
+- Section 3 describes the word embedding and there are two approaches discussed there, Word2Vec and GloVe. <br>
+- Execute either 3.1 or 3.2 section to perform specified word embeddings. <br>
+- glove requires the the source file stored at 'Data/glove.6B.100d.txt'. This file is of 350mb, as per space availability this file will be uploaded. If not present requesting you to store one at specified location. <br>
+- For model evaluation purpose, only execute evalution part specified in each model, this will load the previously saved trained model and evaluate on it. <br>
+- Model training is done on Macbook pro CPU, so the time taken to execute each batch is tremendously high.<br>
 
 # Project Overview:
 title
