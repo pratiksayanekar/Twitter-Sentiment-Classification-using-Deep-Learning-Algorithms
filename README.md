@@ -74,13 +74,13 @@ There are 5 python files created for utility purposes of respective models. Thes
 > Models are tuned on the basis of values provided as filter length, kernal length, max_len and dropout. As per computing power batch size and number of epochs can be changed. Initially the model is trained on batch size of 516 and 1024 as well to analyse the results, these results are stored at SavedNotebooks directory.
 
 ### CNN Model
-title
+![](/figs/cnn_v1.png)
 
 > Accuracy and Loss trend of training and validation data
-title
+![](/figs/Models/CNN_acc_loss.png)
 
 > Confusion Matrix of testing data
-title
+![](/figs/Models/CNN_confusion_matrix.png)
 
 ### CNN_v2 Model
 title
